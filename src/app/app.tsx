@@ -1,10 +1,8 @@
-import NxWelcome from './nx-welcome';
+import { Ui } from '@example-app-x/ui';
 
 export function App() {
   return (
-    <div>
-      <NxWelcome title="example_app_x" />
-    </div>
+    <Ui />
   );
 }
 
